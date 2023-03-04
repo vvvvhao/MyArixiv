@@ -1,5 +1,5 @@
 site_title = "MyArxiv"
-limit_days = 7
+limit_days = 14
 cache_url = "https://username.github.io/reponame/cache.json"
 
 [[sources]]
@@ -9,23 +9,28 @@ title = "Computation and Language"
 
 [[sources]]
 limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
+category = "stat.ME"
+title = "Statistic methodology"
 
 [[sources]]
 limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+category = "cs.AI"
+title = "CS Artificial Intelligence"
 
 [[sources]]
 limit = 150
 category = "cs.LG"
-title = "Machine Learning"
+title = "CS Machine Learning"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
+category = "stat.ML"
+title = "Statistic Machine Learning"
+
+[[sources]]
+limit = 150
+category = "math.NA"
+title = "Numerical analysis"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
